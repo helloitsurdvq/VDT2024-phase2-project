@@ -1,0 +1,6 @@
+# telling the supervisor where to find the server and what OpenTelemetry Collector binary to manage
+server:
+  endpoint: ws://127.0.0.1:4320/v1/opamp
+
+agent:
+  executable: /usr/bin/otelcol-contrib # not a correct path containing otelcol

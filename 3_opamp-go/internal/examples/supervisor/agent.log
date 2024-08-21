@@ -1,0 +1,12 @@
+{"level":"info","ts":1724129444.0484538,"caller":"service@v0.88.0/telemetry.go:84","msg":"Setting up own telemetry..."}
+{"level":"info","ts":1724129444.048633,"caller":"service@v0.88.0/telemetry.go:201","msg":"Serving Prometheus metrics","address":":8888","level":"Basic"}
+{"level":"info","ts":1724129444.0494113,"caller":"service@v0.88.0/service.go:143","msg":"Starting otelcol-contrib...","Version":"0.88.0","NumCPU":12}
+{"level":"info","ts":1724129444.0494425,"caller":"extensions/extensions.go:33","msg":"Starting extensions..."}
+{"level":"info","ts":1724129444.0494564,"caller":"extensions/extensions.go:36","msg":"Extension is starting...","kind":"extension","name":"health_check"}
+{"level":"info","ts":1724129444.0494735,"caller":"healthcheckextension@v0.88.0/healthcheckextension.go:35","msg":"Starting health_check extension","kind":"extension","name":"health_check","config":{"Endpoint":"0.0.0.0:13133","TLSSetting":null,"CORS":null,"Auth":null,"MaxRequestBodySize":0,"IncludeMetadata":false,"ResponseHeaders":null,"Path":"/","ResponseBody":null,"CheckCollectorPipeline":{"Enabled":false,"Interval":"5m","ExporterFailureThreshold":5}}}
+{"level":"info","ts":1724129444.0496032,"caller":"service@v0.88.0/service.go:178","msg":"Starting shutdown..."}
+{"level":"info","ts":1724129444.049616,"caller":"healthcheck/handler.go:132","msg":"Health Check state change","kind":"extension","name":"health_check","status":"unavailable"}
+{"level":"info","ts":1724129444.049651,"caller":"extensions/extensions.go:50","msg":"Stopping extensions..."}
+{"level":"info","ts":1724129444.049658,"caller":"service@v0.88.0/service.go:192","msg":"Shutdown complete."}
+Error: failed to start extensions: failed to bind to address 0.0.0.0:13133: listen tcp 0.0.0.0:13133: bind: address already in use
+2024/08/20 11:50:44 collector server run finished with error: failed to start extensions: failed to bind to address 0.0.0.0:13133: listen tcp 0.0.0.0:13133: bind: address already in use
