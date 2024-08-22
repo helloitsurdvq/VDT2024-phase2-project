@@ -3,6 +3,7 @@ Author: **Đinh Việt Quang**
 
 ## Table of Contents 
 - [0. Requirements](#0-requirements)
+- [1. Assignment list](#1-assignment-list)
 
 ## 0. Requirements
 Currently, OpenTelemetry is becoming a leading ecosystem for system observability. The OpenTelemetry Collector, in particular, plays a crucial role in collecting, processing, and transmitting data to storage systems. To ensure the OpenTelemetry Collector functions properly, operators must install and configure a YAML file. While managing a small number of OpenTelemetry Collectors is relatively easy.  challenges arise as the number of collectors grows and they are deployed across different environments, including:
@@ -16,3 +17,12 @@ Therefore, it is necessary to build a centralized agent management system to:
 + Manage agent versions and hadle upgrades.
 
 Outcome: Complete research on related technologies, make comparisons and provide recommendations for developing a comprehensive solution.
+
+## 1. Assignment list 
+### Update: 22/08/2024
+|Name | Link  |
+|--------------------------|---|
+|Starting out | [link](https://github.com/helloitsurdvq/VDT2024_phase2-OpenTelemetryCollector/tree/main/0_startingOut) |
+|Movies dashboard | [link](https://github.com/helloitsurdvq/VDT2024_phase2-OpenTelemetryCollector/tree/main/1_moviesMicroservices) |
+|Pet clinic Application | [link](https://github.com/helloitsurdvq/VDT2024_phase2-OpenTelemetryCollector/tree/main/2_petClinic) |
+|OpAmp with go | [link](https://github.com/helloitsurdvq/VDT2024_phase2-OpenTelemetryCollector/tree/main/3_opamp-go) |

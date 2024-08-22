@@ -25,6 +25,6 @@ service:
     logs:
       encoding: json
     resource:
-      service.instance.id: 01916e1f-58e8-7156-b333-28a893806ff1
+      service.instance.id: 01917813-8fea-7a58-9838-ed14ad5e39a0
       service.name: io.opentelemetry.collector
       service.version: 1.0.0

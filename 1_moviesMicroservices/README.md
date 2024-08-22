@@ -1,19 +1,32 @@
-# OpenTelemetry Project
+# Movies dashboard application 
 
-to start this app run
+## Usage
+To start a zipkin container
 
-`docker run -d -p 9411:9411 openzipkin/zipkin`
-to start a zipkin container
+```shell
+docker run -d -p 9411:9411 openzipkin/zipkin
+```
+To install the packages
 
-#`npm i`
-to install the packages
+```shell
+npm i
+```
 
-#`node movies.js`
-in one tab
+To run the application, please run these two commands in 2 separate tab
+```shell 
+cd 1_moviesMicroservices
+node movies.js
+node dashboard.js
+```
 
-#`node dashboard.js`
-in another tab
 
-then visit localhost:3001/dashboard
+### Available Endpoints
 
-Now view the tracing data in zipkin : http://localhost:9411/zipkin/
+- `GET /movies`: Returns a list of movies in JSON format.
+- `GET /dashboard`: Fetches the list of movies from the movies-service and returns it in a JSON format.
+
+## OpenTelemetry Instrumentation
+Both services are instrumented with OpenTelemetry to trace HTTP requests. The traces are exported to:
+
+- Console: View traces in the terminal where the service is running.
+- Zipkin: View traces in the Zipkin UI at http://localhost:9411/zipkin.

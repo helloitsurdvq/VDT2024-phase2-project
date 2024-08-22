@@ -1,1 +1,5 @@
 zipkin.jar
+
+systemctl list-units --type=service
+systemctl list-units --type=service --all
+systemctl list-units --type=service --state=running

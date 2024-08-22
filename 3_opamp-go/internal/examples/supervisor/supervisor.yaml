@@ -3,4 +3,10 @@ server:
   endpoint: ws://127.0.0.1:4320/v1/opamp
 
 agent:
-  executable: /usr/bin/otelcol-contrib # not a correct path containing otelcol
+  executable: /usr/bin/otelcol # not a correct path containing otelcol
+
+# sudo find / -name "*otelcol*"
+# sudo find / -type f -name "*otelcol*"
+# sudo find /etc -name "*otelcol*"
+# systemctl list-units --type=service --state=running 
+# sudo nano /etc/otelcol/config.yaml
