@@ -19,6 +19,8 @@ Therefore, it is necessary to build a centralized agent management system to:
 Outcome: Complete research on related technologies, make comparisons and provide recommendations for developing a comprehensive solution.
 
 ## 1. Assignment list 
+This section provides links to various assignments related to the OpenTelemetry Collector and its integration into different applications. Each assignment focuses on specific aspects of setting up, configuring, and utilizing OpenTelemetry in microservices, applications, and the OpAmp protocol. Below is the list of assignments with links to their respective repositories.
+
 ### Update: 22/08/2024
 |Name | Link  |
 |--------------------------|---|
