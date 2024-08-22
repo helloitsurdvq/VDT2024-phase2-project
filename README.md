@@ -26,5 +26,5 @@ This section provides links to various assignments related to the OpenTelemetry 
 |--------------------------|---|
 |Starting out | [link](https://github.com/helloitsurdvq/VDT2024_phase2-OpenTelemetryCollector/tree/main/0_startingOut) |
 |Movies dashboard | [link](https://github.com/helloitsurdvq/VDT2024_phase2-OpenTelemetryCollector/tree/main/1_moviesMicroservices) |
-|Pet clinic Application | [link](https://github.com/helloitsurdvq/VDT2024_phase2-OpenTelemetryCollector/tree/main/2_petClinic) |
+|Pet clinic application | [link](https://github.com/helloitsurdvq/VDT2024_phase2-OpenTelemetryCollector/tree/main/2_petClinic) |
 |OpAmp with go | [link](https://github.com/helloitsurdvq/VDT2024_phase2-OpenTelemetryCollector/tree/main/3_opamp-go) |
