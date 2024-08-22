@@ -10,3 +10,7 @@ manage a fleet of different Agents that implement OpAMP, including a fleet of
 mixed agents from different vendors.
 
 This repository is work-in-progress of an OpAMP implementation in Go.
+
+The result when the program is set up properly
+
+![img](result.png)
