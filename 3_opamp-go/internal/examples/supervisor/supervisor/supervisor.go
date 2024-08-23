@@ -302,7 +302,7 @@ receivers:
         - job_name: 'otel-collector'
           scrape_interval: 10s
           static_configs:
-            - targets: ['0.0.0.0:8888']  
+            - targets: ['0.0.0.0:9091']  
 exporters:
   otlphttp/own_metrics:
     metrics_endpoint: %s

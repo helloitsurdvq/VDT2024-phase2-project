@@ -11,7 +11,7 @@ receivers:
         scrape_interval: 10s
         static_configs:
         - targets:
-          - 0.0.0.0:8888
+          - 0.0.0.0:9091
 service:
   extensions:
   - health_check
@@ -25,6 +25,6 @@ service:
     logs:
       encoding: json
     resource:
-      service.instance.id: 01917813-8fea-7a58-9838-ed14ad5e39a0
+      service.instance.id: 01917d64-7594-7512-be0a-a86fbf80914d
       service.name: io.opentelemetry.collector
       service.version: 1.0.0

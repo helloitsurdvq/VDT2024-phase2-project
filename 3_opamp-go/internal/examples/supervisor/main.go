@@ -5,7 +5,6 @@ import (
 	"log"
 	"os"
 	"os/signal"
-
 	"github.com/open-telemetry/opamp-go/internal/examples/supervisor/supervisor"
 )
 

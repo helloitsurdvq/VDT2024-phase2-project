@@ -21,10 +21,12 @@ Outcome: Complete research on related technologies, make comparisons and provide
 ## 1. Assignment list 
 This section provides links to various assignments related to the OpenTelemetry Collector and its integration into different applications. Each assignment focuses on specific aspects of setting up, configuring, and utilizing OpenTelemetry in microservices, applications, and the OpAmp protocol. Below is the list of assignments with links to their respective repositories.
 
+**Note**: The documentation for each assignment are written in *README.md* file.
+
 ### Update: 22/08/2024
 |Name | Link  |
 |--------------------------|---|
 |Starting out | [link](https://github.com/helloitsurdvq/VDT2024_phase2-OpenTelemetryCollector/tree/main/0_startingOut) |
 |Movies dashboard | [link](https://github.com/helloitsurdvq/VDT2024_phase2-OpenTelemetryCollector/tree/main/1_moviesMicroservices) |
 |Pet clinic application | [link](https://github.com/helloitsurdvq/VDT2024_phase2-OpenTelemetryCollector/tree/main/2_petClinic) |
-|OpAmp with go | [link](https://github.com/helloitsurdvq/VDT2024_phase2-OpenTelemetryCollector/tree/main/3_opamp-go) |
+|OpAmp with Go | [link](https://github.com/helloitsurdvq/VDT2024_phase2-OpenTelemetryCollector/tree/main/3_opamp-go) |
