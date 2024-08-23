@@ -89,7 +89,9 @@ Additional configuration:
 
 ![img](result3.png)
 
-The reusult when adding an invalid configuration
+![img](result4.png)
+
+The reusult when **adding an invalid configuration**
 
 ![img](result2.png)
 
