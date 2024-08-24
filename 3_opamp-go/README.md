@@ -18,7 +18,7 @@ The OpAMP specification defines how to manage a fleet of telemetry data agents. 
 OpAMP is a client/server protocol that supports communication over HTTP and over WebSockets:
 
 * **The OpAMP server** is part of the control plane and acts as the orchestrator, managing telemetry agents by sending instructions through the OpAMP protocol.
-* **The OpAMP client** is part of the data plane, with 2 options of in-process implementation and out-of-process implementation with the help of a supervisor taking care of the OpAMP specific communication with the OpAMP server and at the same time controls the telemetry agent (configuring and upgrading purposes). 
+* **The OpAMP client** is part of the data plane, with 2 options are in-process implementation and out-of-process implementation with the help of a supervisor taking care of the OpAMP specific communication with the OpAMP server and at the same time controls the telemetry agent (configuring and upgrading purposes). 
 * The Supervisor is a part of the Control Plane, managing the state and behavior of the OpAMP server and by extension, the OTel collectors. Note that the **supervisor/telemetry communication** is not part of OpAMP.
 
 ![img](https://opentelemetry.io/docs/collector/img/opamp.svg)
