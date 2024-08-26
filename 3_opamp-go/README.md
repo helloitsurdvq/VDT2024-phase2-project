@@ -58,7 +58,7 @@ cd 3_opamp-go/internal/examples/supervisor
 go run .
 ```
 
-The OpAmp server interface can be visited via [http://localhost:4321/](http://localhost:4321/), where user can see the collector listed and managed by the supervisor.
+The OpAmp server interface can be visited via [http://localhost:4321/](http://localhost:4321/), where user can see the collector list and managed by the supervisor.
 
 ## Overview
 
