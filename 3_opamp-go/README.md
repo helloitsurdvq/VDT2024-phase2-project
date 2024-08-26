@@ -1,11 +1,22 @@
-# OpAMP protocol implementation in Go
+# OpAMP implementation in Go
 
 [Open Agent Management Protocol (OpAMP)](https://github.com/open-telemetry/opamp-spec)
 is a network protocol for remote management of large fleets of data collection Agents.
 
-OpAMP allows Agents to report their status to and receive configuration from a
+OpAMP allows Agents to report their status to and receive configuration from a server and to receive agent package updates from the server.
 
-Server and to receive agent package updates from the server.
+OpAMP provides several key features:
+
+- Agent reporting (e.g., type, version, and host OS details) to the OpAMP control plane.
+
+- Configuration management.
+
+- Telemetry ingestion into an OTLP-compliant observability backend.
+
+- Auto-updating capabilities.
+
+- Connection credentials management.
+
 The protocol is vendor-agnostic, so the Server can remotely monitor and manage a fleet of different Agents that implement OpAMP, including a fleet of
 mixed agents from different vendors.
 
@@ -23,7 +34,17 @@ OpAMP is a client/server protocol that supports communication over HTTP and over
 
 ![img](https://opentelemetry.io/docs/collector/img/opamp.svg)
 
-Here is a system consisting of OpAMP server supervisor and the basic server
+In this implementation, 
+- **The Supervisor** (exists as a separate binary) manages the OpenTelemetry Collector by writing configurations to `config.yaml`.
+- **The OpAMP Client** in the Supervisor communicates with the OpAMP Backend, sending and receiving data.
+- **The OpenTelemetry Collector** reads its configuration from `config.yaml` and operates based on that configuration.
+- The Supervisor can control the lifecycle of the OpenTelemetry Collector (start, stop, etc.) by sending commands (e.g., exec, kill) and handling outputs (stdout/stderr).
+- **The Telemetry Backend** receives telemetry data (logs and metrics) from the OpenTelemetry Collector via OTLP.
+- Finally, **the OpAMP Backend** receives data from the OpAMP Client for management purposes.  
+
+![alt text](image.png)
+
+Here is a system consisting of OpAMP server supervisor and the basic server that will be implemented in this project 
 
 ![img](https://opentelemetry.io/blog/2022/opamp/opamp-server-supervisor-agent-relations.png)
 
@@ -85,7 +106,7 @@ The result when the program is set up properly:
 
 ### Some experiments
 
-Additional configuration:
+Additional configuration (in this example, service.version2 is added):
 
 ![img](result3.png)
 
