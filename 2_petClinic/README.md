@@ -114,6 +114,15 @@ At development time we recommend you use the test applications set up as `main()
 |Opentelemetry Collector | [docs](3_otel.md) |
 |ELK | [docs](4_eleasticSearch_kibana.md) |
 
+### Demonstration
+Below is the result of application observation via prometheus, grafana and zipkin.
+
+![img](prometheus.png)
+
+![img](grafana.png)
+
+![img](zipkin.png)
+
 ## License
 
 The Spring PetClinic sample application is released under version 2.0 of the [Apache License](https://www.apache.org/licenses/LICENSE-2.0).
