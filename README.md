@@ -23,10 +23,11 @@ This section provides links to various assignments related to the OpenTelemetry 
 
 **Note**: The documentation for each assignment are written in *README.md* file.
 
-### Update: 22/08/2024
+### Update: 03/09/2024
 |Name | Link  |
 |--------------------------|---|
 |Starting out | [link](https://github.com/helloitsurdvq/VDT2024_phase2-OpenTelemetryCollector/tree/main/0_startingOut) |
 |Movies dashboard | [link](https://github.com/helloitsurdvq/VDT2024_phase2-OpenTelemetryCollector/tree/main/1_moviesMicroservices) |
 |Pet clinic application | [link](https://github.com/helloitsurdvq/VDT2024_phase2-OpenTelemetryCollector/tree/main/2_petClinic) |
 |OpAmp with Go | [link](https://github.com/helloitsurdvq/VDT2024_phase2-OpenTelemetryCollector/tree/main/3_opamp-go) |
+|Running multiple agents | [link](https://github.com/helloitsurdvq/VDT2024_phase2-OpenTelemetryCollector/tree/main/4_multipleAgent) |
